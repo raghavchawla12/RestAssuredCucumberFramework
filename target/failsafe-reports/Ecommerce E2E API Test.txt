@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: Ecommerce E2E API Test
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.748 s <<< FAILURE! - in Ecommerce E2E API Test
+Ecommerce E2E API Test.Verify that User is able to login to Ecommerce Application through API  Time elapsed: 0.716 s  <<< ERROR!
+java.lang.ExceptionInInitializerError
+Caused by: groovy.lang.GroovyRuntimeException: Conflicting module versions. Module [groovy-xml is loaded in version 4.0.1 and you are trying to load version 3.0.8
+
+Ecommerce E2E API Test.Verify that Zara Coat3 Product is present in Get All Products API Response  Time elapsed: 0.009 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+
+Ecommerce E2E API Test.Verify that API is able to fetch Individual Product Detail Successfully  Time elapsed: 0.019 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+

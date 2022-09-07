@@ -1,0 +1,152 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/product/get-all-products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzE0Njc1YWM0ZDBjNTFmNGYxNjZkYjciLCJ1c2VyRW1haWwiOiJ0ZXN0UmVzdEFzc3VyZWRAeW9wbWFpbC5jb20iLCJ1c2VyTW9iaWxlIjoxMjM0NTY3ODkwLCJ1c2VyUm9sZSI6ImN1c3RvbWVyIiwiaWF0IjoxNjYyNTc0OTU0LCJleHAiOjE2OTQxMzI1NTR9.j3OWlI6CSdMOHs7eEWCKwGLiWwY9vs3_GitIGMieS9I
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "productName": "",
+    "minPrice": 0,
+    "maxPrice": 1000000000,
+    "productCategory": [
+        
+    ],
+    "productSubCategory": [
+        
+    ],
+    "productFor": [
+        
+    ]
+}
+HTTP/1.1 200 OK
+Date: Wed, 07 Sep 2022 18:22:34 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+ETag: W/"509-MNrncpZoHlCdxwPtSz2+2rQR7Qk"
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+
+{
+    "data": [
+        {
+            "_id": "6262e95ae26b7e1a10e89bf0",
+            "productName": "zara coat 3",
+            "productCategory": "fashion",
+            "productSubCategory": "shirts",
+            "productPrice": 31500,
+            "productDescription": "zara coat 3",
+            "productImage": "https://rahulshettyacademy.com/api/ecom/uploads/productImage_1650649434146.jpeg",
+            "productRating": "0",
+            "productTotalOrders": "0",
+            "productStatus": true,
+            "productFor": "women",
+            "productAddedBy": "admin@gmail.com",
+            "__v": 0
+        },
+        {
+            "_id": "6262e990e26b7e1a10e89bfa",
+            "productName": "adidas original",
+            "productCategory": "fashion",
+            "productSubCategory": "shirts",
+            "productPrice": 31500,
+            "productDescription": "adidas original",
+            "productImage": "https://rahulshettyacademy.com/api/ecom/uploads/productImage_1650649488046.jpg",
+            "productRating": "0",
+            "productTotalOrders": "0",
+            "productStatus": true,
+            "productFor": "men",
+            "productAddedBy": "admin@gmail.com",
+            "__v": 0
+        },
+        {
+            "_id": "6262e9d9e26b7e1a10e89c04",
+            "productName": "iphone 13 pro",
+            "productCategory": "electronics",
+            "productSubCategory": "shirts",
+            "productPrice": 231500,
+            "productDescription": "iphone 13 pro",
+            "productImage": "https://rahulshettyacademy.com/api/ecom/uploads/productImage_1650649561326.jpg",
+            "productRating": "0",
+            "productTotalOrders": "0",
+            "productStatus": true,
+            "productFor": "men",
+            "productAddedBy": "admin@gmail.com",
+            "__v": 0
+        }
+    ],
+    "count": 3,
+    "message": "All Products fetched Successfully"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/api/ecom/product/get-product-detail/6262e95ae26b7e1a10e89bf0
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	key=6262e95ae26b7e1a10e89bf0
+Headers:		authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzE0Njc1YWM0ZDBjNTFmNGYxNjZkYjciLCJ1c2VyRW1haWwiOiJ0ZXN0UmVzdEFzc3VyZWRAeW9wbWFpbC5jb20iLCJ1c2VyTW9iaWxlIjoxMjM0NTY3ODkwLCJ1c2VyUm9sZSI6ImN1c3RvbWVyIiwiaWF0IjoxNjYyNTc0OTU0LCJleHAiOjE2OTQxMzI1NTR9.j3OWlI6CSdMOHs7eEWCKwGLiWwY9vs3_GitIGMieS9I
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 07 Sep 2022 18:22:35 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 461
+ETag: W/"1cd-PNBSuLwvQFCzKFGRwYMzakfGv1o"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "data": {
+        "_id": "6262e95ae26b7e1a10e89bf0",
+        "productName": "zara coat 3",
+        "productCategory": "fashion",
+        "productSubCategory": "shirts",
+        "productPrice": 31500,
+        "productDescription": "zara coat 3",
+        "productImage": "https://rahulshettyacademy.com/api/ecom/uploads/productImage_1650649434146.jpeg",
+        "productRating": "0",
+        "productTotalOrders": "0",
+        "productStatus": true,
+        "productFor": "women",
+        "productAddedBy": "admin@gmail.com",
+        "__v": 0
+    },
+    "message": "Product Details fetched Successfully"
+}
